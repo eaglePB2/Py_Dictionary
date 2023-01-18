@@ -1,14 +1,9 @@
 var parambox_t, parambox_t2;
-var canv =
-    document.getElementById('O0');
-var ctx =
-    canv.getContext('2d');
-var right_panel =
-    document.getElementById('right_panel');
-var left_panel =
-    document.getElementById('left_panel');
-var top_panel =
-    document.getElementById('top_panel');
+var canv = document.getElementById('O0');
+var ctx = canv.getContext('2d');
+var right_panel = document.getElementById('right_panel');
+var left_panel = document.getElementById('left_panel');
+var top_panel = document.getElementById('top_panel');
 var floattag = document.getElementById('floattag');
 var _lsu = 10;
 var _lsv = 10;
